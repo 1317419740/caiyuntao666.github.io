@@ -46,3 +46,4 @@ if __name__ == "__main__":
  plt.ylabel('exp(X)', fontsize=15)
  plt.grid(True)
  plt.show()
+ print("66666")
