@@ -1,5 +1,5 @@
 """
-    离散信号表示之指数序列
+离散信号表示之指数序列
 """
 import numpy as np
 import matplotlib.pyplot as plt

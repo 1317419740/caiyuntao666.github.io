@@ -1,5 +1,5 @@
 """
-     矩形脉冲信号
+    矩形脉冲信号
 """
 
 import numpy as np

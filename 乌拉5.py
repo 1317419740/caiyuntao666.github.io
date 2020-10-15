@@ -1,5 +1,5 @@
 """
-    符号算法表示正弦信号
+正弦信号
 """
 import numpy as np
 from sympy import plot, sin, Symbol
