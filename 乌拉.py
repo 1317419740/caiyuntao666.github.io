@@ -5,15 +5,15 @@ import matplotlib.pyplot as plt
 
 
 def calc_e_small(x):
- n = 10
- f = np.arange(1, n+1).cumprod()
- b = np.array([x]*n).cumprod()
- return np.sum(b / f) + 1
+    n = 10
+    f = np.arange(1, n+1).cumprod()
+    b = np.array([x]*n).cumprod()
+    return np.sum(b / f) + 1
 
 
 def calc_e(x):
  reverse = False
- if x < 0: # 处理负数
+ if x < 0:  # 处理负数
   x = -x
   reverse = True
  ln2 = 0.69314718055994530941723212145818
@@ -26,7 +26,6 @@ def calc_e(x):
  return y
 
 
-
 if __name__ == "__main__":
  t1 = np.linspace(-2, 0, 10, endpoint=False)
  t2 = np.linspace(0, 3, 20)
@@ -36,7 +35,7 @@ if __name__ == "__main__":
  for i, x in enumerate(t):
   y[i] = calc_e(x)
   print('e^', x, ' = ', y[i], '(近似值)\t', math.exp(x), '(真实值)')
-  # print '误差：', y[i] - math.exp(x)
+ # print '误差：', y[i] - math.exp(x)
  plt.figure(facecolor='w')
  mpl.rcParams['font.sans-serif'] = [u'SimHei']
  mpl.rcParams['axes.unicode_minus'] = False
