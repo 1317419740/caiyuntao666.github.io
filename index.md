@@ -15,4 +15,4 @@
     </td>
   </tr>
 </table> 
-![wula](乌拉.py)
+https://github.com/caiyuntao666/caiyuntao666.github.io/blob/gh-pages/%E4%B9%8C%E6%8B%89.py
