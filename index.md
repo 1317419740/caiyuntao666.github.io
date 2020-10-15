@@ -11,7 +11,7 @@
       <p><b>地址：妙不可言的地方</b></p>
     </td>
     <td width="25%">
-      <img src="/鬼灭.jpg" width="100%">       <img src="C:\Users\夜雨无止声自烦\Pictures\Saved Pictures" >
+      <img src="/鬼灭.jpg" width="100%">      
     </td>
   </tr>
 </table> 
