@@ -2,15 +2,15 @@ import numpy as np
 import math
 import matplotlib as mpl
 import matplotlib.pyplot as plt
-  
-  
+
+
 def calc_e_small(x):
  n = 10
  f = np.arange(1, n+1).cumprod()
  b = np.array([x]*n).cumprod()
  return np.sum(b / f) + 1
-  
-  
+
+
 def calc_e(x):
  reverse = False
  if x < 0: # 处理负数
@@ -25,8 +25,8 @@ def calc_e(x):
   return 1/y
  return y
 
-  
-  
+
+
 if __name__ == "__main__":
  t1 = np.linspace(-2, 0, 10, endpoint=False)
  t2 = np.linspace(0, 3, 20)
